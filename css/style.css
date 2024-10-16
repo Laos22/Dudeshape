@@ -1,5 +1,76 @@
-@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+  --font-family: "Red Hat Display", sans-serif;
+}
+
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  max-width: 1440px;
+  margin: o auto;
+  font-family: var(--font-family);
+  font-weight: regular;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #222;
+}
+
+.text-normal {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #222;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 68px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.menu__item {
+  text-wrap: nowrap;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-menu_item__btn {
+  background: transparent;
+  border: none;
 }/*# sourceMappingURL=style.css.map */

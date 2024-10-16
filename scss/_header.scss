@@ -1,0 +1,45 @@
+.header {
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+
+.header-wrapper {
+    // width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+		// .menu__item
+
+		&__item {
+            text-wrap: nowrap;
+		}
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+		// .nav-menu__item
+
+		&__item {
+		}
+}
+.nav-menu_item {
+
+
+		// .nav-menu_item__btn
+
+		&__btn {
+            background: transparent;
+            border: none;
+		}
+}
