@@ -18,7 +18,7 @@ a {
 
 body {
     max-width: 1440px;
-    margin: o auto;
+    margin: 0 auto;
     font-family: var(--font-family);
     font-weight: regular;
 }
@@ -41,6 +41,20 @@ body {
     color: #222;
 }
 
+h1 {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 125%;
+    color: #000;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #555;
+}
+
 .text-normal {
     font-weight: 400;
     font-size: 16px;
@@ -48,4 +62,24 @@ body {
     color: #222;
 
 }
+
+.bg-beige {
+    background: #f9f6f5;
+}
+
+.btn {
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.btn--black {
+    background: #402f2c;
+    color: #fff;
+    border: none;
+}
+
+
+
 

@@ -1,0 +1,43 @@
+.promotion {
+
+    background: #f9f6f5 url("../img/promotion.jpg") right no-repeat;
+
+
+
+    // .promotion__text-block
+
+    &__text-block {
+        width: 621px;
+        padding-bottom: 106px;
+    }
+
+    
+}
+
+.promotion-title {
+    padding-top: 40px;
+
+}
+.promotion-description {
+    padding: 30px 0;
+    width: 516px;
+}
+.promotion-form {
+    margin-bottom: 67px;
+    input {
+        width: 326px;
+        height: 48px;
+        position: absolute;
+        padding-left: 16px;
+    }
+    button {
+        padding: 8px;
+        background: #402f2c;
+        position: relative;
+        left: 284px;
+        top: 4px;
+        cursor: pointer;
+    }
+
+}
+
