@@ -184,4 +184,16 @@ p {
 
 .swiper-button-next {
   margin-right: 23px;
+}
+
+.partners {
+  margin: 130px 0;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 42.5px 34px;
+  border-top: 2px #EEEEEE solid;
+  border-bottom: 2px #EEEEEE solid;
 }/*# sourceMappingURL=style.css.map */
