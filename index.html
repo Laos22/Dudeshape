@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Dudeshape</title>
 </head>
@@ -54,23 +55,49 @@
 
         <!-- PROMOTION -->
         <section class="promotion bg-beige">
-            <div class="container">
-                <div class="promotion__text-block">
-                    <h1 class="promotion-title">Get Your Best Cosmetic Products Here</h1>
-                    <p class="promotion-description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                    </p>
-                    <form action="#" class="promotion-form">
-                        <input type="text" placeholder="Search...">
-                        <button type="submit">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="7.84442" cy="7.84442" r="5.99237" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M12.0122 12.3235L14.3616 14.6667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                        </button>
-                    </form>
-                    <button class="btn btn--black" >Shop Now</button>
+            <div class="promotion__text-block">
+                <h1 class="promotion-title">Get Your Best Cosmetic Products Here</h1>
+                <p class="promotion-description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+                <form action="#" class="promotion-form">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="7.84442" cy="7.84442" r="5.99237" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.0122 12.3235L14.3616 14.6667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                    </button>
+                </form>
+                <button class="btn btn--black" >Shop Now</button>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="/img/promotion.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/img/promotion.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/img/promotion.jpg" alt="">
+                    </div>
                 </div>
+                <div class="btn-swiper-group">
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <img src="./img/arrow-left.svg" alt="">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="./img/arrow-right.svg" alt="">
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
@@ -80,6 +107,9 @@
     <footer class="footer">
 
     </footer>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/swiper.js"></script>
 </body>
 </html>

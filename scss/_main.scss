@@ -17,14 +17,14 @@ a {
 
 
 body {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     font-family: var(--font-family);
     font-weight: regular;
 }
 
 .container {
-    max-width: 1280px;
+    width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
 
@@ -39,6 +39,7 @@ body {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #222;
+    cursor: pointer;
 }
 
 h1 {
@@ -72,12 +73,18 @@ p {
     font-weight: 500;
     font-size: 18px;
     line-height: 133%;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .btn--black {
     background: #402f2c;
     color: #fff;
     border: none;
+}
+.btn--black:hover {
+    background: #110c0b;
+    color: #fff;
 }
 
 

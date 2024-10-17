@@ -1,14 +1,17 @@
 .promotion {
 
-    background: #f9f6f5 url("../img/promotion.jpg") right no-repeat;
-
-
+    // background: #f9f6f5 url("../img/promotion.jpg") right no-repeat;
+    padding-left: 100px;
+    display: flex;
 
     // .promotion__text-block
 
     &__text-block {
         width: 621px;
         padding-bottom: 106px;
+        margin-right: -72px;
+        display: block;
+
     }
 
     
@@ -16,6 +19,8 @@
 
 .promotion-title {
     padding-top: 40px;
+    position: relative;
+    z-index: 2;
 
 }
 .promotion-description {
@@ -40,4 +45,48 @@
     }
 
 }
+
+
+
+// SWIPER
+
+
+.swiper {
+    width: 796px;
+    height: 609px;
+    // border: 1px black solid;
+
+}
+
+.swiper-slide {
+    max-height: 609px;
+}
+
+.btn-swiper-group {
+    width: 145px;
+    height: 138px;
+    background: #f9f6f5;
+    position: absolute;
+    top: 470px;
+    margin-left: 1px;
+    z-index: 2;
+
+
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    content: none;
+}
+
+.swiper-button-prev {
+    margin-left: 17px;
+}
+.swiper-button-next {
+    margin-right: 23px;
+}
+
+ 
+
+
+
 
