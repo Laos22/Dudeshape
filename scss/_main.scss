@@ -84,7 +84,15 @@ p {
 }
 .btn--black:hover {
     background: #110c0b;
-    color: #fff;
+}
+
+.btn--white {
+    background: transparent;
+    color: #402f2c;
+    border: 1px solid rgba(104, 90, 82, 0.46);
+}
+.btn--white:hover {
+    background: grey;
 }
 
 

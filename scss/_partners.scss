@@ -1,10 +1,11 @@
 .partners {
     margin: 130px 0;
+    overflow: auto;
 }
 .partners-list {
     display: flex;
     justify-content: space-between;
-    padding: 42.5px 34px;
+    padding: 40px 34px;
     border-top: 2px #EEEEEE solid;
     border-bottom: 2px #EEEEEE solid;
 

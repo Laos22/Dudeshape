@@ -1,0 +1,112 @@
+.popular {
+
+    // .popular__inner
+
+    &__inner {
+    }
+}
+
+.popular-title {
+    width: 50%;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+.popular-inner-servise {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    // .popular-inner-servise__desc
+
+    &__desc {
+        width: 714px;
+        // max-height: 75px;
+    }
+
+    // .popular-inner-servise__link
+
+    &__link {
+        display: flex;
+        align-items: start;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 125%;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #222;
+        
+    }
+}
+.popular-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.product {
+    width: 600px;
+    height: 812px;
+    border: 1px solid rgba(104, 90, 82, 0.19);
+
+    // .product__img
+
+    &__img {
+    }
+
+    // .product__title
+
+    &__title {
+        padding: 0 32px;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 150%;
+        color: #222;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    // .product__disc
+
+    &__disc {
+        max-width: 516px;
+        max-height: 96px;
+        padding: 0 32px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        color: #555;
+        margin-bottom: 47px;
+        overflow: auto;
+    }
+
+    // .product__buttons
+
+    &__buttons {
+        padding: 0 32px 32px 32px;
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+
+        button {
+            flex: 1;
+            text-wrap: nowrap;
+        }
+
+        span {
+            flex: 2;
+            text-align: end;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 107%;
+            text-align: right;
+            color: #222;
+            margin: auto 0;
+        }
+    }
+}
+.btn {
+}
+.btn--black {
+}
+.btn--white {
+}
