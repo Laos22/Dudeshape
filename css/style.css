@@ -208,6 +208,9 @@ p {
   border-bottom: 2px #EEEEEE solid;
 }
 
+.popular {
+  margin-bottom: 130px;
+}
 .popular-title {
   width: 50%;
   margin-top: -5px;
@@ -285,4 +288,37 @@ p {
   text-align: right;
   color: #222;
   margin: auto 0;
+}
+
+.advantages {
+  background: #fdf8f5;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 58px 75px;
+}
+.advantages-list__item {
+  display: flex;
+  flex-direction: column;
+}
+.advantages-list__item .advantages-list__item__title {
+  display: inline-block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 125%;
+  color: #222;
+  border-bottom: 3px solid #222;
+  text-align: center;
+  padding-top: 3px;
+  margin-bottom: 30px;
+}
+.advantages-list__item .advantages-list__item__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  color: #555;
 }/*# sourceMappingURL=style.css.map */
