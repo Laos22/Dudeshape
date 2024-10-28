@@ -211,6 +211,7 @@ p {
 .popular {
   margin-bottom: 130px;
 }
+
 .popular-title {
   width: 50%;
   margin-top: -5px;
@@ -321,4 +322,25 @@ p {
   font-size: 24px;
   line-height: 125%;
   color: #555;
+}
+
+.perfect-beauty {
+  height: 600px;
+  margin: 130px 0;
+  background: url("../img/perfect-beauty.jpg") right no-repeat;
+  background-position: center right 100px;
+  background-size: 600px 600px;
+}
+.perfect-beauty__title {
+  display: block;
+  width: 520px;
+  padding-top: 45px;
+}
+.perfect-beauty p {
+  width: 608px;
+  padding-top: 20px;
+  line-height: 32px;
+}
+.perfect-beauty button {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
