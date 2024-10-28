@@ -343,4 +343,74 @@ p {
 }
 .perfect-beauty button {
   margin-top: 50px;
+}
+
+.reviews {
+  padding: 0 63px;
+  display: flex;
+}
+.reviews__img {
+  width: 583px;
+  height: 554px;
+}
+.reviews__img img {
+  max-width: auto;
+  height: auto;
+}
+.reviews__text-block {
+  padding: 30px 0 0 37px;
+}
+.reviews__title {
+  margin-left: 17px;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.reviews__stars-list {
+  display: flex;
+  margin-left: 17px;
+  margin-top: 12px;
+  gap: 12px;
+}
+.reviews__disc {
+  margin-top: 39px;
+  margin-left: 17px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #555;
+  width: 608px;
+  text-indent: -17px;
+}
+.reviews__disc img {
+  margin-bottom: 6px;
+}
+.reviews__name {
+  margin-top: 77px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 17px;
+}
+.reviews__position {
+  display: block;
+  margin-left: 17px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #555;
+  margin-top: 10px;
+}
+.reviews__buttons {
+  margin-top: 22px;
+  margin-left: 17px;
+}
+.reviews__buttons button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.back {
+  opacity: 0.25;
 }/*# sourceMappingURL=style.css.map */
