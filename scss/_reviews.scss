@@ -1,6 +1,6 @@
 .reviews {
 
-    padding: 0 63px;
+    padding: 0 63px 130px 63px;
     display: flex;
 
     // .reviews__img
@@ -10,8 +10,10 @@
         height: 554px;
 
         img {
+            display: block;
             max-width: auto;
             height: auto;
+            object-fit: cover;
         }
 
     }

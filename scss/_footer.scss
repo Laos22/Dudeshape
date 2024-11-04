@@ -1,0 +1,47 @@
+.footer {
+    background-color: #fafafa;
+
+    // .footer__inner-top
+
+    &__inner-top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 103px;
+        padding-bottom: 59px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    // .footer__title
+
+    &__title {
+        font-family: var(--font-family);
+        // font-weight: 500;
+        font-size: 36px;
+        line-height: 128%;
+    }
+
+    // .footer__form
+
+    &__form {
+        flex-shrink: 0;
+
+
+        input {
+            border: none;
+
+        }
+    }
+
+    // .footer__btn
+
+    &__btn {
+    }
+}
+.container {
+}
+.title {
+}
+.promotion-form {
+}
+.btn--black {
+}
